@@ -1,11 +1,11 @@
 .content { float:left; width:95%; margin:0 2%; padding: 40px 0; }
 
 /*BTN*/
-.btn-download       { background-color:#977129; color:#fff; border-radius: 50px; font-family: 'arial'; padding: 0.5em 0.8em; display:block; float: none; text-decoration: none; margin: auto; width:100%; font-size: 1.5em; text-align: center; line-height: 40px; }
-.btn-download:hover { background-color:#977129; color:#fff; }
+.btn-download       { background-color:#070707; color:#fff; border-radius: 50px; font-family: 'arial'; padding: 0.5em 0.8em; display:block; float: none; text-decoration: none; margin: auto; width:100%; font-size: 1.5em; text-align: center; line-height: 40px; }
+.btn-download:hover { background-color:#050505; color:#fff; }
 
 /*HEADER*/
-.main_header          { background:#030303; border-bottom:1px #977129; z-index:1; padding: 0.5em 0em; }
+.main_header          { background:#5E4D85; border-bottom:1px #0f0f0f; z-index:1; padding: 0.5em 0em; }
 .main_header .content { float:left; padding:0px 0; }
 
 .fixed            { display:block; position:fixed; z-index:9;  }
@@ -64,7 +64,7 @@
     text-align: center;
     font-size: 2.1em;
     border-radius: 30px;
-    color: #977129;
+    color: #0f0f0f;
     cursor: pointer;
 
 }
@@ -86,15 +86,15 @@ nav {
 #menu {
   
     position: absolute;
-    color:#977129(0, 0, 0);
+    color:#0c0c0b(0, 0, 0);
     width: 220px;
     padding: 6px;
     margin: 0px;
     font-family:'open_sanslight';
     text-align: left;
     border-radius: 6px;
-    background-color:#977129;
-    box-shadow: 0 1px 8px #977129(0,0,0,0.06);
+    background-color:rgb(231, 230, 230);
+    box-shadow: 0 1px 8px rgb(14, 14, 13);
     display: none;
     top: 83px;
     right: -21px;
@@ -111,7 +111,7 @@ nav {
     display: block;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #977129;
+    border-bottom: 15px solid #e8e7eb;
 
 }
 
@@ -156,8 +156,8 @@ nav {
 /*FOOTER*/
 .main_footer          { 
 
-	background-color:#977129; 
-	color:#fff; 
+	background-color: #5E4D85; 
+	color:rgb(2, 2, 2); 
 	font-size:0.875em; 
 }
 
@@ -185,7 +185,7 @@ nav {
 	color:#ffffff; 
 	padding-bottom: 0.5em; 
 	margin-bottom:0.5em; 
-	border-bottom:1px #977129;
+	border-bottom:1px #000000;
 }
 
 .colfooter p  { font-family:'open_sanslight'; color:#ffffff; font-size:1em; height:25px; } 
